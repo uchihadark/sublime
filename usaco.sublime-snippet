@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+void setIO(string name = "") {
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    if (name.size()) {
+        freopen((name + ".in").c_str(), "r", stdin);
+        freopen((name + ".out").c_str(), "w", stdout);
+    }
+}
+]]></content>
+  <tabTrigger>usaco</tabTrigger>
+  <description>USACO</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

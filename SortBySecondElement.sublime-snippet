@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+bool sortbysec(const pair<int,int> &a,
+              const pair<int,int> &b)
+{
+    return (a.second < b.second);
+}
+]]></content>
+  <tabTrigger>sortbysec</tabTrigger>
+  <description>SortBySecondElement</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
